@@ -12,25 +12,25 @@ Edit the values below before running the bot.
 import os as _os_env
 # Hosting platform ke Secrets/Env (Koyeb, Railway, VPS) se token lo — config.py
 # me token likhna zaroori nahi. Env var BOT_TOKEN set ho to wahi use hoga.
-BOT_TOKEN = _os_env.environ.get("BOT_TOKEN") or "YOUR TOKEN"
+BOT_TOKEN = _os_env.environ.get("8952251204:AAE0xU0eom2LnmMOCHy7uyevXNx7LKiTGbQ") or "YOUR TOKEN"
 
-OWNER_ID = 8100453801
+OWNER_ID = 8112149031
 
 ADMIN_IDS = [
-    8100453801
+    8112149031
 ]
 
 # ─── Version ───────────────────────────────────────────────────────────
 VERSION = "5.3-ptero-sandbox"
 
 # ─── Credits ───────────────────────────────────────────────────────────
-CREDIT_OWNER = "@Hx5x5x5x"
+CREDIT_OWNER = "@lordzenox"
 
-CREDIT_TELEGRAM_CHANNEL = "https://t.me/Dev_Null_X_NODE_JS"
+CREDIT_TELEGRAM_CHANNEL = "https://t.me/zenoxtool"
 
-CREDIT_YOUTUBE_CHANNEL = "https://www.youtube.com/@Dev_Null_X"
+CREDIT_YOUTUBE_CHANNEL = "https://www.youtube.com/"
 
-CREDIT_HOME_VIDEO_URL = "https://files.catbox.moe/q6civ6.mp4"
+CREDIT_HOME_VIDEO_URL = ""
 
 CREDIT_FOOTER = f"\n\n👑 Bot by {CREDIT_OWNER}"
 
@@ -159,8 +159,8 @@ EMERGENCY_LOG_MAX_KB = 50
 FORCE_JOIN_ENABLED = True
 
 FORCE_JOIN_CHATS = [
-    {"name": "Dev_Null_X Channel", "chat_id": "@Dev_Null_X_NODE_JS", "url": CREDIT_TELEGRAM_CHANNEL},
-     {"name": "Support Group", "chat_id": "@OSINT_INFO_GROUP", "url": "https://t.me/OSINT_INFO_GROUP"},
+    {"name": "LORDZENOx", "chat_id": "@zenoxtool", "url": CREDIT_TELEGRAM_CHANNEL},
+     {"name": "Support Group", "chat_id": "@zenoxgc", "url": "https://t.me/zenoxgc"},
 ]
 
 
