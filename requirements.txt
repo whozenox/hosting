@@ -1,0 +1,12 @@
+python-telegram-bot>=22.7,<23
+
+docker==7.1.0
+GitPython==3.1.43
+psutil==6.0.0
+requests==2.32.3
+aiofiles==24.1.0
+watchdog==5.0.3
+
+# Updated for Python 3.14 compatibility
+py7zr>=0.24.0
+cryptography>=42

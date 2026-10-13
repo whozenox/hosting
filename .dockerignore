@@ -1,0 +1,12 @@
+# Made by @Dev_Null_X — never bake runtime data/secrets into the panel image
+.git
+uploads
+containers
+backups
+logs
+temp
+deps
+database/*.db
+database/*.db-*
+*.pyc
+__pycache__
