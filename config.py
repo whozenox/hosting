@@ -240,7 +240,7 @@ SANDBOX_MODE = "auto"
 
 # Landlock sandbox me har bot ki RAM limit (MB). Cross karne par monitor process-tree kill karta hai.
 # Pterodactyl server ki total RAM se bahut kam rakho (sab bots + panel share karte hain).
-SANDBOX_MEMORY_MB = 300
+SANDBOX_MEMORY_MB = 2048
 # Ek bot ek file kitni badi likh sakta hai (MB)
 SANDBOX_MAX_FILE_MB = 200
 # True = pip sirf wheels install kare (sdist ka setup.py kabhi na chale). Kuch packages fail honge.
