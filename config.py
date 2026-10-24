@@ -81,7 +81,7 @@ ADMIN_CPU_LIMIT = 4.0
 
 # Max upload size in megabytes. Sized against MAX_STORAGE_MB below — one
 # huge upload shouldn't be able to eat most of the whole box by itself.
-MAX_UPLOAD_MB = 150
+MAX_UPLOAD_MB = 500
 
 # Max number of bots a single (non-admin) user may host at once
 MAX_BOTS_PER_USER = 3
@@ -121,7 +121,7 @@ try:
 except Exception:
     pass
 # pip refuses to start an install if less than this much disk is free.
-MIN_FREE_DISK_MB = 400
+MIN_FREE_DISK_MB = 800
 
 # Each per-bot log file (process-fallback mode) is truncated back to
 # this size (keeping the newest bytes) the moment it would exceed it —
@@ -167,8 +167,8 @@ FORCE_JOIN_CHATS = [
 # ─── Hosting Capacity / Safety Controls ─────────────────────────────────
 # Global active-hosting slots for normal users. Owners/admins bypass this
 # limit and can host without a slot cap.
-MAX_HOSTING_SLOTS = 50
-SLOT_WARNING_AT = 30
+MAX_HOSTING_SLOTS = 200
+SLOT_WARNING_AT = 40
 
 # When enabled, normal-user uploads/GitHub deploys wait for an admin approval.
 # When disabled, a file that passes the automated security scan can deploy
